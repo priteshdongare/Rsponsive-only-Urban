@@ -1,0 +1,673 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*banner all*/
+
+.mean1{
+    width: 100%;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom:210px;
+}
+
+.mean1 .header p{
+    color: #ffffff;
+    font-size:16px;
+    font-weight: 100;
+    margin:30px 0 0 15px;
+    float: left;
+}
+
+.mean1 .header .fa-bars{
+    color: #ffffff;
+    float: right;
+    margin: 35px 35px 0;
+}
+
+.mean1 .header .UR{
+    color:#3498db;
+}
+
+.header{
+    width: 100%;
+}
+
+.center1{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center1 h1{
+    color: #ffffff;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom:25px;
+}
+
+.mean1 .center1 p{
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    float: none;
+    margin-bottom: 43px;
+    word-spacing: 4px;
+}
+
+.center1 button{
+    width: 181px;
+    height: 63px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#3498db;
+    border: 0;
+    border-radius: 3px;
+}
+
+/*Complete B*/
+
+
+/*part 1*/
+
+.mean2{
+    width: 100%;
+}
+
+.center2{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.center2 h1{
+     margin-top: 0;
+     color: #000000;
+     font-size: 21px;
+     margin-bottom: 30px;
+     margin-top: 10px;
+}
+
+.img1{
+    width:35%;
+    margin-left: 0;
+    text-align: center;
+    float: left;
+    margin-right:0;
+    min-width: 150px;
+
+}
+.text1{
+    float: right;
+    width:60%;
+    min-width: 250px;
+    margin-left: 0;
+}
+.center2 .img1 img{
+    width:87%;
+    border-radius: 100%;
+    margin-left:0;
+    padding: 8px;
+    border:2px solid #e1e1e1 ;
+    margin-bottom:32px;
+}
+
+.center2 p{
+    color: #9fa19f;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    font-weight: 100;
+    margin-bottom: 29px;
+}
+
+.center2 button{
+    width: 143px;
+    height: 45px;
+    float:left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:#3498db;
+    font-family: 'Roboto Slab', serif;
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+/*Complete part1*/
+
+
+/*part2*/
+
+.mean3{
+    width: 100%;
+    background-color: #3498db;
+    margin-top: 0;
+}
+
+.center3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    padding-bottom:70px;
+}
+
+.text2{
+    width: 60%;
+    float: left;
+    padding-top: 85px;
+    padding-bottom: 35px;
+}
+.img2{
+    width: 35%;
+    float:left;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.center3 h1{
+          font-family: 'Roboto Slab', serif;
+          color: #fffcfc;
+          float: left;
+          margin: 0;
+          font-size: 23px;
+}
+
+.center3 img{
+    width: 85%;
+    border-radius: 100%;
+    margin-left: 0;
+    padding:8px;
+    border: 1px solid #5cade3;
+}
+
+.center3 p{
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a6c7e8;
+    font-weight: 100;
+    clear: left;
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+.center3 button{
+    width: 150px;
+    height: 50px;
+    color: #3498db;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 34px;
+    font-size: 18px;
+}
+
+/*complete part2*/
+
+
+/*part3*/
+
+.mean4 {
+    width: 100%;
+    margin-top: 0;
+}
+
+.center4{
+    width:80%;
+    margin: 0 auto;
+    padding-top: 97px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.center4 h1{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    color: #000000;
+}
+
+.center4 p{
+    color:#c7c5cc ;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.div1{
+    width:30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.div1 img{
+   width: 85%;
+   border-radius: 100%;
+   border: 1px solid #e1e1e1;
+   padding: 10px;
+   margin-bottom: 25px;
+}
+
+.div1 p{
+    font-size: 12px;
+    color: #999fa6;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.bu{
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color:#45aded;
+    border: 0;
+    border-radius: 3px;
+}
+
+.div2{
+    width:30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.div2 img{
+   width: 85%;
+   border-radius: 100%;
+   border: 1px solid #e1e1e1;
+   padding: 10px;
+   margin-bottom: 25px;
+}
+
+.div2 p{
+    font-size: 12px;
+    color: #999fa6;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.div3{
+    width:30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.div3 img{
+   width: 85%;
+   border-radius: 100%;
+   border: 1px solid #e1e1e1;
+   padding: 10px;
+   margin-bottom: 25px;
+}
+
+.div3 p{
+    font-size: 12px;
+    color: #999fa6;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+/*complete part3*/
+
+
+/*Last part*/
+
+.mean5{
+    width: 100%;
+}
+
+.center5{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center5 li{
+    margin-left: 30px;
+    
+}
+
+.center5 .fa-twitter{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 2px double #eaeaea;
+    color: #999999;
+}
+
+.center5 .fa-facebook{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 2px double #eaeaea;
+    color: #999999;
+}
+
+.center5 .fa-instagram{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 2px double #eaeaea;
+    color: #999999;
+}
+
+.center5 .fa-snapchat{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 2px double #eaeaea;
+    color: #999999;
+}
+
+.center5 p{
+    color:#c3c7cd;
+    font-size: 12px;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*complete*/
+
+/*tablet*/
+@media only screen and (max-width:900px){
+    .center1 h1{
+       font-size:40px;
+       margin-top: 250px;
+    }
+
+    .center1 p{
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+
+    .center1 button{
+        width:150px;
+        height: 50px;
+    }
+
+    .center2 .text1{
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    .center2 .text1 h1{
+        text-align: center;
+    }
+
+    .center2 .text1 p{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .center2 .text1 button{
+        float: none;
+       
+    }
+
+    .center2 .img1{
+        width: 100%;
+        clear: both;
+    }
+    .center2 .img1 img{
+        width:50%;
+    }
+
+    .center3{
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .center3 h1{
+        float: none;
+        text-align: center;
+    }
+
+    .center3 .text2{
+        float: none;
+        width: 100%;
+        clear: both;
+        position: relative;
+        top: 300;
+        padding-bottom: 20px;
+    }
+
+    .center3 .text2 p{
+        float: none;
+        text-align: justify;
+    }
+    .center3 .img2{
+        float: none;
+        width: 100%;
+        position: relative;
+        top: -480px;
+    }
+
+    .center3 .img2 img{
+        width: 50%;
+    }
+    
+    .center4 h1{
+        font-size:25px;
+    }
+
+    .center4 p{
+        font-size:13px;
+    }
+   .center4 {
+       padding-bottom:40px;
+   }
+    .center4 .div1{
+        width: 100%;
+        clear: both;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .center4 .div1 img{
+        width: 40%;
+    }
+
+    .center4 .div1 p{
+        font-size: 12px;
+    }
+
+    .center4 .div1 button{
+        width: 100px;
+        height: 40;
+        margin-bottom:30px;
+    }
+
+    .center4 .div2{
+        margin-top: 50px;
+        width: 100%;
+        clear: both;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .center4 .div2 img{
+        width: 40%;
+    }
+
+    .center4 .div2 p{
+        font-size: 12px;
+    }
+
+    .center4 .div2 button{
+        width: 100px;
+        height: 40;
+        margin-bottom:30px;
+    }
+
+    .center4 .div3{
+        margin-top: 50px;
+        width: 100%;
+        clear: both;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .center4 .div3 img{
+        width: 40%;
+    }
+
+    .center4 .div3 p{
+        font-size: 12px;
+    }
+
+    .center4 .div3 button{
+        width: 100px;
+        height: 40;
+        margin-bottom:30px;
+    }
+    
+    .center5 .fa-twitter{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 2px double #eaeaea;
+        color: #999999;
+    }
+    
+    .center5 .fa-facebook{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 2px double #eaeaea;
+        color: #999999;
+    }
+    
+    .center5 .fa-instagram{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 2px double #eaeaea;
+        color: #999999;
+    }
+    
+    .center5 .fa-snapchat{
+        font-size:20px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 2px double #eaeaea;
+        color: #999999;
+    }
+    
+    .center5 p{
+        color:#c3c7cd;
+        font-size: 10px;
+        clear: both;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .mean5{
+        margin-top: 0;
+    }
+    
+
+}
+/*complate tablte*/
+
+/*mobile*/
+
+@media only screen and (max-width:750px){
+    .center1 h1{
+        font-size:35px;
+        margin-top: 250px;
+
+     }
+ 
+    .center1 button{
+         width:130px;
+         height: 50px;
+     }
+    .center2 .text1 button{
+        float: none;
+        width: 90px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .center3 .text2 button{
+        float: none;
+        width: 90px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .center3 .text2{
+        float: none;
+        width: 100%;
+        clear: both;
+        position: relative;
+        top: 300;
+        padding-bottom: 20px;
+    }
+
+    .center3 .img2{
+        float: none;
+        width: 100%;
+        position: relative;
+        top: -560px;
+    }
+
+    .center3 .img2 img{
+        width: 50%;
+    }
+
+    .center3 .text2{
+        float: none;
+        width: 100%;
+        clear: both;
+        position: relative;
+        top: 250;
+        padding-bottom: 20px;
+    }
+
+    .center3 .text2 h1{
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .center4 h1{
+        font-size:22px;
+    }
+
+    .center4 p{
+        font-size:11px;
+    }
+
+    .center4 .bu{
+        width: 80px;
+        height: 35px;
+        font-size: 11px;
+        margin-bottom:30px;
+    }
+
+}
